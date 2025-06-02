@@ -1,0 +1,70 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    font-style: normal;
+    color: #2b2b2b;
+    line-height: 1.7;
+    border: 2px solid #333;
+    margin: 30px 350px auto;
+    padding: 28px 32px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px gray;
+}
+
+.card {
+        background: linear-gradient(to right,rgb(255, 255, 255),rgb(175, 175, 175));
+        margin: 0px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+a {
+    color: rgb(41, 43, 43);
+    font-style: oblique;
+}
+
+
+img {
+    height: 300px;
+    width: 500px;
+    object-fit: fill;
+    box-shadow: 3px 3px rgb(0, 0, 0);
+    filter: saturate(1.3);
+    transition: .3s;
+}
+
+img:cottage-cheese {
+    filter: grayscale(0);
+    transform: scale(1.3) rotate(7deg);
+}
+
+ul {
+    display: block;
+    text-align: left;
+}
+
+.descriptions {
+    color: red;
+    line-height: 1;
+}
+
+.ingredients {
+    color: pink;
+    line-height: 1;
+}
+.directions {
+    color: blue;
+    line-height: 1;
+}
+
+legend {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 3px 3px;
+  box-shadow: 3px 3px gray;
+}
